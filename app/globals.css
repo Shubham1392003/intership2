@@ -3,6 +3,19 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@keyframes marquee-cards {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.cards-marquee {
+  display: flex;
+  width: max-content;
+   min-width: 200%;  
+  animation: marquee-cards 18s linear infinite;
+}
+
+
 :root {
   --background: 0 0% 100%;
   --foreground: 0 0% 3.6%;
@@ -122,3 +135,5 @@
     @apply bg-background text-foreground;
   }
 }
+
+.marquee-viewport { overflow: hidden; }

@@ -21,8 +21,8 @@ export default function Header() {
               <Image
                 src="/logo.png"
                 alt="Health Desk Logo"
-                width={45}
-                height={45}
+                width={50}
+                height={50}
               />
             </Link>
           </div>
