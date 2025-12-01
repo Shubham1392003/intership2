@@ -16,7 +16,7 @@ const products = [
   },
   {
     name: "True Fem",
-    image: "/TrueFem.png",
+    image: "/Truefem.png",
     rating: 5,
     reviews: 95,
     price: "$34.99",
@@ -30,7 +30,7 @@ const products = [
   },
   {
     name: "ProstaZen",
-    image: "/ProstaZen.png",
+    image: "/Prostazen.png",
     rating: 5,
     reviews: 87,
     price: "$44.99",
